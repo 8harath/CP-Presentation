@@ -56,18 +56,18 @@ export default function Presentation({ slides }: PresentationProps) {
   return (
     <div className="relative w-full h-screen bg-white overflow-hidden">
       {/* Slide Container */}
-      <div className="w-full h-full flex items-center justify-center p-8">
-        <div className="w-full h-full max-w-[90vw] max-h-[90vh] bg-white neo-border neo-brutal-shadow-lg">
+      <div className="w-full h-full flex items-center justify-center p-2 md:p-8">
+        <div className="w-full h-full max-w-[95vw] max-h-[95vh] md:max-w-[90vw] md:max-h-[90vh] bg-white neo-border neo-brutal-shadow-lg">
           {slides[currentSlide]}
         </div>
       </div>
 
       {/* Fancy Slide Counter - NeoBrutalist Style */}
-      <div className="absolute top-8 right-8 flex items-center gap-3">
-        <div className="bg-white neo-border-thin neo-brutal-shadow-sm px-6 py-3 flex items-baseline gap-2">
-          <span className="text-5xl font-bold">{String(currentSlide + 1).padStart(2, '0')}</span>
-          <span className="text-2xl font-medium text-gray-400">/</span>
-          <span className="text-2xl font-medium text-gray-400">{String(slides.length).padStart(2, '0')}</span>
+      <div className="absolute top-2 right-2 md:top-8 md:right-8 flex items-center gap-3">
+        <div className="bg-white neo-border-thin neo-brutal-shadow-sm px-3 py-2 md:px-6 md:py-3 flex items-baseline gap-1 md:gap-2">
+          <span className="text-2xl md:text-5xl font-bold">{String(currentSlide + 1).padStart(2, '0')}</span>
+          <span className="text-lg md:text-2xl font-medium text-gray-400">/</span>
+          <span className="text-lg md:text-2xl font-medium text-gray-400">{String(slides.length).padStart(2, '0')}</span>
         </div>
       </div>
     </div>
