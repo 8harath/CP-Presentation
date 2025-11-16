@@ -3,7 +3,7 @@ import Slide from "../Slide";
 export default function Slide3() {
   return (
     <Slide>
-      <div className="p-16 space-y-12">
+      <div className="p-0 space-y-6">
         {/* Title */}
         <div className="inline-block bg-black px-8 py-4 neo-brutal-shadow">
           <h1 className="text-5xl font-bold text-white">
@@ -12,7 +12,7 @@ export default function Slide3() {
         </div>
 
         {/* Main Feature */}
-        <div className="bg-white neo-border neo-brutal-shadow-lg p-12 max-w-4xl">
+        <div className="bg-white neo-border neo-brutal-shadow-lg p-6 max-w-4xl">
           <p className="text-4xl font-bold text-black mb-8">
             Upload → AI Enhance → Download
           </p>
@@ -24,7 +24,7 @@ export default function Slide3() {
         {/* Key Innovation */}
         <div className="space-y-6 max-w-5xl">
           <p className="text-2xl font-bold text-black">Dual AI Approach</p>
-          <div className="grid grid-cols-2 gap-6">
+          <div className="grid grid-cols-2 gap-4">
             <div className="bg-white neo-border-thin neo-brutal-shadow-sm p-8">
               <p className="text-xl font-bold text-black mb-2">Gemini 1.5 Flash</p>
               <p className="text-lg text-gray-700">Content extraction & enhancement</p>

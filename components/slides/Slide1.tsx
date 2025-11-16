@@ -3,7 +3,7 @@ import Slide from "../Slide";
 export default function Slide1() {
   return (
     <Slide className="flex flex-col items-center justify-center bg-white">
-      <div className="text-center space-y-16">
+      <div className="text-center space-y-10">
         {/* Main Title */}
         <div className="space-y-6">
           <div className="inline-block bg-black px-12 py-6 neo-brutal-shadow-lg">
@@ -27,7 +27,7 @@ export default function Slide1() {
         <div className="grid grid-cols-2 gap-6 max-w-3xl mx-auto">
           <div className="bg-white neo-border-thin neo-brutal-shadow-sm p-6">
             <p className="text-sm font-bold text-black mb-2">TEAM</p>
-            <p className="text-lg text-black">Bharath & Contributors</p>
+            <p className="text-lg text-black">Bharath K, Lochan S, Tobith</p>
           </div>
           <div className="bg-white neo-border-thin neo-brutal-shadow-sm p-6">
             <p className="text-sm font-bold text-black mb-2">INSTITUTION</p>

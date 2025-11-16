@@ -3,7 +3,7 @@ import Slide from "../Slide";
 export default function Slide6() {
   return (
     <Slide>
-      <div className="p-16 space-y-12">
+      <div className="p-0 space-y-6">
         {/* Title */}
         <div className="inline-block bg-black px-8 py-4 neo-brutal-shadow">
           <h1 className="text-5xl font-bold text-white">
@@ -12,7 +12,7 @@ export default function Slide6() {
         </div>
 
         {/* Key Features */}
-        <div className="grid grid-cols-3 gap-6 max-w-6xl">
+        <div className="grid grid-cols-3 gap-4 max-w-6xl">
           <div className="bg-white neo-border-thin neo-brutal-shadow-sm p-6">
             <p className="text-3xl font-bold text-black mb-2">5</p>
             <p className="text-lg text-black">PDF Extraction Methods</p>

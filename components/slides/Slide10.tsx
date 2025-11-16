@@ -3,7 +3,7 @@ import Slide from "../Slide";
 export default function Slide10() {
   return (
     <Slide>
-      <div className="p-16 space-y-12">
+      <div className="p-0 space-y-6">
         {/* Title */}
         <div className="inline-block bg-black px-8 py-4 neo-brutal-shadow">
           <h1 className="text-5xl font-bold text-white">
@@ -12,11 +12,11 @@ export default function Slide10() {
         </div>
 
         {/* Achievements */}
-        <div className="bg-white neo-border neo-brutal-shadow-lg p-12 max-w-4xl">
+        <div className="bg-white neo-border neo-brutal-shadow-lg p-6 max-w-4xl">
           <p className="text-4xl font-bold text-black mb-8 text-center">
             Production-Ready SaaS Platform
           </p>
-          <div className="grid grid-cols-2 gap-6">
+          <div className="grid grid-cols-2 gap-4">
             <div className="text-center">
               <p className="text-5xl font-bold text-black">✓</p>
               <p className="text-lg text-black mt-2">Problem Validated</p>
@@ -64,7 +64,7 @@ export default function Slide10() {
         </div>
 
         {/* Impact */}
-        <div className="grid grid-cols-3 gap-6 max-w-5xl">
+        <div className="grid grid-cols-3 gap-4 max-w-5xl">
           <div className="bg-black neo-brutal-shadow p-8 text-center">
             <p className="text-3xl font-bold text-white mb-2">75% → 25%</p>
             <p className="text-sm text-white">ATS Rejection Rate</p>
@@ -80,7 +80,7 @@ export default function Slide10() {
         </div>
 
         {/* Thank You */}
-        <div className="bg-white neo-border neo-brutal-shadow-lg p-12 max-w-3xl mx-auto text-center">
+        <div className="bg-white neo-border neo-brutal-shadow-lg p-6 max-w-3xl mx-auto text-center">
           <p className="text-5xl font-bold text-black mb-4">Thank You</p>
           <p className="text-xl text-gray-700">Jain University • November 2025</p>
           <p className="text-2xl font-bold text-black mt-8">Questions?</p>

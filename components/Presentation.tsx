@@ -56,8 +56,8 @@ export default function Presentation({ slides }: PresentationProps) {
   return (
     <div className="relative w-full h-screen bg-white overflow-hidden">
       {/* Slide Container */}
-      <div className="w-full h-full flex items-center justify-center p-12">
-        <div className="w-full max-w-7xl h-full bg-white neo-border neo-brutal-shadow-lg overflow-auto">
+      <div className="w-full h-full flex items-center justify-center p-8">
+        <div className="w-full h-full max-w-[90vw] max-h-[90vh] bg-white neo-border neo-brutal-shadow-lg overflow-hidden">
           {slides[currentSlide]}
         </div>
       </div>

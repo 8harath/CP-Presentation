@@ -3,7 +3,7 @@ import Slide from "../Slide";
 export default function Slide7() {
   return (
     <Slide>
-      <div className="p-16 space-y-10">
+      <div className="p-0 space-y-6">
         {/* Title */}
         <div className="inline-block bg-black px-8 py-4 neo-brutal-shadow">
           <h1 className="text-5xl font-bold text-white">
@@ -12,7 +12,7 @@ export default function Slide7() {
         </div>
 
         {/* Before/After */}
-        <div className="grid grid-cols-2 gap-8 max-w-6xl">
+        <div className="grid grid-cols-2 gap-4 max-w-6xl">
           {/* Before */}
           <div className="space-y-4">
             <p className="text-2xl font-bold text-black">Before</p>
@@ -62,7 +62,7 @@ export default function Slide7() {
         </div>
 
         {/* Processing Time */}
-        <div className="flex gap-6 max-w-4xl">
+        <div className="flex gap-4 max-w-4xl">
           <div className="bg-white neo-border-thin neo-brutal-shadow-sm p-6 flex-1 text-center">
             <p className="text-3xl font-bold text-black">32s</p>
             <p className="text-sm text-gray-600 mt-1">Well-formatted PDF (95% confidence)</p>

@@ -3,7 +3,7 @@ import Slide from "../Slide";
 export default function Slide5() {
   return (
     <Slide>
-      <div className="p-16 space-y-10">
+      <div className="p-0 space-y-6">
         {/* Title */}
         <div className="inline-block bg-black px-8 py-4 neo-brutal-shadow">
           <h1 className="text-5xl font-bold text-white">
