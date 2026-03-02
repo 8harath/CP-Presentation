@@ -7,22 +7,22 @@ export default function Slide4() {
         {/* Title */}
         <div className="inline-block bg-black px-4 py-3 md:px-8 md:py-4 neo-brutal-shadow">
           <h1 className="text-3xl md:text-5xl font-bold text-white">
-            Architecture
+            Design & Architecture
           </h1>
         </div>
 
         {/* Architecture Flow */}
         <div className="flex flex-col items-center space-y-6 max-w-4xl mx-auto">
-          {/* User Layer */}
+          {/* Design Layer */}
           <div className="bg-blue-500 neo-border-thin neo-brutal-shadow px-12 py-6 w-full text-center">
-            <p className="text-lg md:text-2xl font-bold text-white">User Browser</p>
-            <p className="text-sm text-white mt-1">PDF / DOCX / TXT Upload</p>
+            <p className="text-lg md:text-2xl font-bold text-white">Design Layer</p>
+            <p className="text-sm text-white mt-1">Simple flow: Upload -> Enhance -> Download</p>
           </div>
           <div className="text-2xl md:text-4xl font-bold text-black">↓</div>
 
-          {/* Frontend/API */}
+          {/* Frontend/API Architecture */}
           <div className="bg-purple-500 neo-border-thin neo-brutal-shadow px-12 py-6 w-full text-center">
-            <p className="text-lg md:text-2xl font-bold text-white">Next.js 16 + TypeScript</p>
+            <p className="text-lg md:text-2xl font-bold text-white">Architecture Layer</p>
             <p className="text-sm text-white mt-1">Frontend + API Routes</p>
           </div>
           <div className="text-2xl md:text-4xl font-bold text-black">↓</div>

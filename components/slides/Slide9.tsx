@@ -7,7 +7,7 @@ export default function Slide9() {
         {/* Title */}
         <div className="inline-block bg-black px-4 py-3 md:px-8 md:py-4 neo-brutal-shadow">
           <h1 className="text-3xl md:text-5xl font-bold text-white">
-            Testing & Results
+            Testing
           </h1>
         </div>
 

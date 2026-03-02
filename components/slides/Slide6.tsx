@@ -7,29 +7,29 @@ export default function Slide6() {
         {/* Title */}
         <div className="inline-block bg-black px-4 py-3 md:px-8 md:py-4 neo-brutal-shadow">
           <h1 className="text-3xl md:text-5xl font-bold text-white">
-            Implementation
+            Prototype Development - Phase 1
           </h1>
         </div>
 
         {/* Key Features */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 max-w-6xl">
           <div className="bg-white neo-border-thin neo-brutal-shadow-sm p-4 md:p-6">
-            <p className="text-xl md:text-3xl font-bold text-black mb-2">5</p>
-            <p className="text-lg text-black">PDF Extraction Methods</p>
+            <p className="text-xl md:text-3xl font-bold text-black mb-2">MVP</p>
+            <p className="text-lg text-black">Core Prototype Built</p>
           </div>
           <div className="bg-white neo-border-thin neo-brutal-shadow-sm p-4 md:p-6">
-            <p className="text-xl md:text-3xl font-bold text-black mb-2">90+</p>
-            <p className="text-lg text-black">Edge Cases Handled</p>
+            <p className="text-xl md:text-3xl font-bold text-black mb-2">6</p>
+            <p className="text-lg text-black">Pipeline Steps Integrated</p>
           </div>
           <div className="bg-white neo-border-thin neo-brutal-shadow-sm p-4 md:p-6">
-            <p className="text-xl md:text-3xl font-bold text-black mb-2">800+</p>
-            <p className="text-lg text-black">Lines Normalization Logic</p>
+            <p className="text-xl md:text-3xl font-bold text-black mb-2">v1</p>
+            <p className="text-lg text-black">Prototype Release</p>
           </div>
         </div>
 
         {/* Technologies */}
         <div className="space-y-4 max-w-5xl">
-          <p className="text-lg md:text-2xl font-bold text-black">Core Technologies</p>
+          <p className="text-lg md:text-2xl font-bold text-black">Phase 1 Deliverables</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
             <div className="bg-white neo-border-thin neo-brutal-shadow-sm p-4 md:p-6">
               <p className="text-base md:text-xl font-bold text-black mb-2">Multi-Strategy Extraction</p>
