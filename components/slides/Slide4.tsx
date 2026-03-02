@@ -16,7 +16,7 @@ export default function Slide4() {
           {/* Design Layer */}
           <div className="bg-blue-500 neo-border-thin neo-brutal-shadow px-12 py-6 w-full text-center">
             <p className="text-lg md:text-2xl font-bold text-white">Design Layer</p>
-            <p className="text-sm text-white mt-1">Simple flow: Upload -> Enhance -> Download</p>
+            <p className="text-sm text-white mt-1">Simple flow: Upload to Enhance to Download</p>
           </div>
           <div className="text-2xl md:text-4xl font-bold text-black">↓</div>
 
