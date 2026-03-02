@@ -38,27 +38,27 @@ export default function Slide10() {
 
         {/* Future Roadmap */}
         <div className="space-y-4 max-w-5xl">
-          <p className="text-lg md:text-2xl font-bold text-black">Future Roadmap</p>
+          <p className="text-lg md:text-2xl font-bold text-black">Implementation Roadmap</p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
             <div className="bg-white neo-border-thin neo-brutal-shadow-sm p-4 md:p-6">
               <p className="text-lg font-bold text-black mb-2">Phase 1</p>
-              <p className="text-sm text-gray-700">Multiple Templates</p>
-              <p className="text-sm text-gray-700">Manual Edit Mode</p>
+              <p className="text-sm text-gray-700">Connect App to Supabase</p>
+              <p className="text-sm text-gray-700">DB Schema + Migrations</p>
             </div>
             <div className="bg-white neo-border-thin neo-brutal-shadow-sm p-4 md:p-6">
               <p className="text-lg font-bold text-black mb-2">Phase 2</p>
-              <p className="text-sm text-gray-700">User Accounts</p>
-              <p className="text-sm text-gray-700">Resume History</p>
+              <p className="text-sm text-gray-700">Add User Authentication</p>
+              <p className="text-sm text-gray-700">Email + OAuth Login</p>
             </div>
             <div className="bg-white neo-border-thin neo-brutal-shadow-sm p-4 md:p-6">
               <p className="text-lg font-bold text-black mb-2">Phase 3</p>
-              <p className="text-sm text-gray-700">Job Matching</p>
-              <p className="text-sm text-gray-700">ATS Scoring</p>
+              <p className="text-sm text-gray-700">Store Resume Data</p>
+              <p className="text-sm text-gray-700">History + Versioning</p>
             </div>
             <div className="bg-white neo-border-thin neo-brutal-shadow-sm p-4 md:p-6">
               <p className="text-lg font-bold text-black mb-2">Phase 4</p>
-              <p className="text-sm text-gray-700">Cover Letters</p>
-              <p className="text-sm text-gray-700">LinkedIn Sync</p>
+              <p className="text-sm text-gray-700">3 Free Trials / User</p>
+              <p className="text-sm text-gray-700">Paid Upgrade After Limit</p>
             </div>
           </div>
         </div>

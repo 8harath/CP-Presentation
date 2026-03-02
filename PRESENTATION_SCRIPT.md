@@ -469,29 +469,29 @@ This isn't just a capstone project. This is a **real product solving a real prob
 
 "We have a 12-month roadmap to take KairosCV from MVP to market leader:
 
-**Phase 1 (Months 1-2): User Experience**
-- Multiple templates beyond Jake's Resume (Modern, Creative, Academic)
-- Manual edit mode - let users tweak AI suggestions
-- Side-by-side comparison - see before and after
-- Preview mode before downloading
+**Phase 1 (Months 1-2): Supabase Foundation**
+- Connect application APIs to Supabase
+- Define PostgreSQL schema and migrations
+- Configure secure environments and service roles
+- Add observability for database and auth events
 
-**Phase 2 (Months 3-4): User Accounts**
-- Authentication via Firebase or Supabase
-- Resume history and versioning
+**Phase 2 (Months 3-4): Authentication**
+- Enable Supabase Auth (email/password + OAuth)
+- Add protected routes and session handling
+- Account recovery and email verification flows
+- Basic user profile management
+
+**Phase 3 (Months 5-6): Data Persistence**
+- Store resume inputs/outputs in database + storage
+- Resume history and versioning per user
 - Save drafts for iterative improvement
-- Analytics dashboard showing resume views/downloads
+- Row-level security and data retention policies
 
-**Phase 3 (Months 5-6): Job Matching**
-- Upload job descriptions, optimize resume for specific roles
-- ATS score calculator - predict your chances
-- Keyword optimization - show missing keywords
-- Tailored bullet points per application
-
-**Phase 4 (Months 7-12): Premium Features**
-- AI-powered cover letter generation
-- LinkedIn profile optimization and syncing
-- Interview prep - generate questions based on resume
-- Unlimited revisions for power users"
+**Phase 4 (Months 7-12): Usage Limits + Monetization**
+- 3 free trials per user (server-side enforced)
+- Upgrade prompt after free trial quota is consumed
+- Subscription plan: $10/month unlimited usage
+- Premium modules: job matching + ATS scoring"
 
 **Social Impact - Why This Matters:**
 "But beyond features and revenue, here's the impact we're aiming for:
@@ -504,7 +504,7 @@ This isn't just a capstone project. This is a **real product solving a real prob
 
 **Business Viability:**
 "And yes, this is commercially viable:
-- Freemium model: 1 free resume/month, $10/month unlimited
+- Freemium model: 3 free trials per user, $10/month unlimited
 - Pay-per-resume: $5 per optimization
 - Enterprise: Custom pricing for universities and recruiting agencies
 - Breakeven: Just 2 paying users per month (our costs are negligible)
@@ -528,10 +528,10 @@ We're proud of what we've built. We're excited about where it's going. And we're
 A: Currently, KairosCV is optimized for English resumes. Gemini supports 100+ languages, so extending to other languages is technically straightforward - we'd need to train on non-English resume samples and adjust our templates. It's on our roadmap for international expansion.
 
 **Q: What if the AI makes a mistake in enhancement?**
-A: Great question. That's why Phase 1 of our roadmap includes a manual edit mode. Users will be able to review and modify AI suggestions before finalizing. Additionally, we return a confidence score with each resume, so users know how reliable the extraction was. If confidence is low (<70%), we recommend manual review.
+A: Great question. Users already receive a confidence score with each resume so they know reliability. If confidence is low (<70%), we recommend manual review. In our roadmap, Phase 3 adds persistent resume history and draft editing so users can revise AI suggestions before finalizing.
 
 **Q: How do you ensure data privacy?**
-A: We don't store resumes permanently. After processing, files are available for download for 1 hour, then automatically deleted. We don't train our AI on user data - we use Gemini's API which doesn't retain data. For user accounts (Phase 2), we'll implement industry-standard encryption and comply with data protection regulations.
+A: We currently keep processing artifacts temporary, and our roadmap adds secure persistence through Supabase. Stored data will use row-level security, encrypted transport, strict access policies, and user-controlled deletion. We also don't train our AI on user data - we use Gemini's API without custom model training on uploaded resumes.
 
 **Q: Can this handle resumes with non-standard sections like 'Publications' or 'Patents'?**
 A: Yes! Our template supports 13+ sections including Publications, Patents, Certifications, Awards, Volunteer Work, Languages, and Hobbies. If a section isn't in our predefined list, it goes into a catch-all 'Additional Information' section. We don't drop data.
@@ -562,7 +562,7 @@ Phase 2 is paid:
 - Affiliate partnerships with job boards
 
 **Q: How do you make money if the free tier is generous?**
-A: The free tier (1 resume/month) serves two purposes:
+A: The free tier (3 trials per user) serves two purposes:
 1. **User acquisition**: Try before you buy
 2. **Viral loop**: Free users share with friends who are also job hunting
 
